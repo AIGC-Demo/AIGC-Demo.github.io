@@ -104,127 +104,40 @@
 <!-- End paper abstract -->
 
 
-
-
-<div><table class="center">
-<tr>
-  <td style="text-align:center;" colspan="4"><b>Without POS</b></td>
-</tr>
-<tr>
-  <td><img src="https://github.com/StevensXu/demo/blob/main/data/2_woPOS.gif"></td>
-  <td><img src="https://github.com/StevensXu/demo/blob/main/data/3_woPOS.gif"></td>
-  <td><img src="https://github.com/StevensXu/demo/blob/main/data/4_woPOS.gif"></td>
-  <td><img src="https://github.com/StevensXu/demo/blob/main/data/9_woPOS.gif"></td>
-</tr>
-
-</div><div><tr>
-  <td style="text-align:center;" colspan="4"><b>With POS</b></td>
-</tr>
-<tr>
-  <td><img src="https://github.com/StevensXu/demo/blob/main/data/2_wPOS.gif"></td>
-  <td><img src="https://github.com/StevensXu/demo/blob/main/data/3_wPOS.gif"></td>
-  <td><img src="https://github.com/StevensXu/demo/blob/main/data/4_wPOS.gif"></td>
-  <td><img src="https://github.com/StevensXu/demo/blob/main/data/9_wPOS.gif"></td>
-</tr>
-<tr>
-  <td width="25%" style="text-align:center;">A panda is driving a car</td>
-  <td width="25%" style="text-align:center;">Monkey learning to play the piano</td>
-  <td width="25%" style="text-align:center;">A paper folding tiger is walking on table</td>
-  <td width="25%" style="text-align:center;">Unicorns running along a beach</td>
-</tr>
-</table></div>
-
-
 <!-- Vid2vid carousel -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container  is-max-desktop">
-      <h2 class="title is-3">Video examples</h2>
-      <div id="results-carousel" class="carousel results-carousel">
+      <h2 class="title is-3">Results comparison with good and bad initial noise</h2>
+      <h3 class="title is-4">ModelScope</h3>
+      <div><table class="center">
+        <tr>
+          <td style="text-align:center;" colspan="4"><b>Bad initial noise</b></td>
+        </tr>
+        <tr>
+          <td><img src="static/videos/bn_dog.gif"></td>
+          <td><img src="static/videos/bn_elephant.gif"></td>
+          <td><img src="static/videos/bn_squirrel.gif"></td>
+          <td><img src="static/videos/bn_sailboat.gif"></td>
+        </tr>
         
-        <div class="item item-video1">
-          <video poster="" id="vid2vid_video1" playsinline autoplay muted loop height="50%" src="static/videos/20240804_223100.mp4">
-          </video>
-        </div>
-        
-        <div class="item item-video2">
-          <video poster="" id="vid2vid_video2" playsinline autoplay muted loop height="50%" src="static/videos/20240804_224403.mp4">
-          </video>
-        </div>
-        
-        <div class="item item-video3">
-          <video poster="" id="vid2vid_video3" playsinline autoplay muted loop height="50%" src="static/videos/20240804_224545.mp4">
-          </video>
-        </div>
-        
-        <div class="item item-video4">
-          <video poster="" id="vid2vid_video4" playsinline autoplay muted loop height="50%" src="static/videos/20240804_225047.mp4">
-          </video>
-        </div>
-
-        <div class="item item-video5">
-          <video poster="" id="vid2vid_video5" playsinline autoplay muted loop height="50%" src="static/videos/20240804_225148.mp4">
-          </video>
-        </div>
-
-        <div class="item item-video6">
-          <video poster="" id="vid2vid_video6" playsinline autoplay muted loop height="50%" src="static/videos/20240804_225305.mp4">
-          </video>
-        </div>
-
-        <div class="item item-video7">
-          <video poster="" id="vid2vid_video7" playsinline autoplay muted loop height="50%" src="static/videos/20240804_225414.mp4">
-          </video>
-        </div>
-
-        <div class="item item-video8">
-          <video poster="" id="vid2vid_video8" playsinline autoplay muted loop height="50%" src="static/videos/20240804_231859.mp4">
-          </video>
-        </div>
-
-
-        
-        <div class="item item-video1">
-          <video poster="" id="vid2vid_video8" playsinline autoplay muted loop height="50%" src="static/videos/20240804_233421.mp4">
-          </video>
-        </div>
-        
-        <div class="item item-video2">
-          <video poster="" id="vid2vid_video10" playsinline autoplay muted loop height="50%" src="static/videos/20240804_233511.mp4">
-          </video>
-        </div>
-        
-        <div class="item item-video3">
-          <video poster="" id="vid2vid_video11" playsinline autoplay muted loop height="50%" src="static/videos/20240804_233610.mp4">
-          </video>
-        </div>
-        
-        <div class="item item-video4">
-          <video poster="" id="vid2vid_video12" playsinline autoplay muted loop height="50%" src="static/videos/20240804_233659.mp4">
-          </video>
-        </div>
-
-        <div class="item item-video5">
-          <video poster="" id="vid2vid_video13" playsinline autoplay muted loop height="50%" src="static/videos/20240804_234012.mp4">
-          </video>
-        </div>
-
-        <div class="item item-video6">
-          <video poster="" id="vid2vid_video14" playsinline autoplay muted loop height="50%" src="static/videos/20240804_234117.mp4">
-          </video>
-        </div>
-
-        <div class="item item-video7">
-          <video poster="" id="vid2vid_video15" playsinline autoplay muted loop height="50%" src="static/videos/20240804_234214.mp4">
-          </video>
-        </div>
-
-        <div class="item item-video8">
-          <video poster="" id="vid2vid_video16" playsinline autoplay muted loop height="50%" src="static/videos/20240804_234325.mp4">
-          </video>
-        </div>
-        
-      </div>
+        </div><div><tr>
+          <td style="text-align:center;" colspan="4"><b>Good initial noise</b></td>
+        </tr>
+        <tr>
+          <td><img src="static/videos/gn_dog.gif"></td>
+          <td><img src="static/videos/gn_elephant.gif"></td>
+          <td><img src="static/videos/gn_squirrel.gif"></td>
+          <td><img src="static/videos/gn_sailboat.gif"></td>
+        </tr>
+        <tr>
+          <td width="25%" style="text-align:center;">A dog wearing a Superhero outfit with red cape flying through the sky</td>
+          <td width="25%" style="text-align:center;">3D model of an elephant origami. Studio lighting</td>
+          <td width="25%" style="text-align:center;">A squirrel eating a burger</td>
+          <td width="25%" style="text-align:center;">Sailboat sailing on a sunny day in a mountain lake</td>
+        </tr>
+      </table></div>
+      
     </div>
   </div>
 </section>
@@ -232,39 +145,39 @@
 
 
 
-  <!-- Vid2vid carousel -->
+<!-- Vid2vid carousel -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container  is-max-desktop">
-      <h2 class="title is-3">Results comparison with good and bad initial noise</h2>
-      <h3 class="title is-3">ModelScope</h3>
+      <h2 class="title is-3">Video qualitative results</h2>
+      <h3 class="title is-4">Real-World Videos(ModelScope)</h3>
       <div><table class="center">
-<tr>
-  <td style="text-align:center;" colspan="4"><b>Bad initial noise</b></td>
-</tr>
-<tr>
-  <td><img src="static/videos/bn_dog.gif"></td>
-  <td><img src="static/videos/bn_elephant.gif"></td>
-  <td><img src="static/videos/bn_squirrel.gif"></td>
-  <td><img src="static/videos/bn_sailboat.gif"></td>
-</tr>
-
-</div><div><tr>
-  <td style="text-align:center;" colspan="4"><b>Good initial noise</b></td>
-</tr>
-<tr>
-  <td><img src="static/videos/gn_dog.gif"></td>
-  <td><img src="static/videos/gn_elephant.gif"></td>
-  <td><img src="static/videos/gn_squirrel.gif"></td>
-  <td><img src="static/videos/gn_sailboat.gif"></td>
-</tr>
-<tr>
-  <td width="25%" style="text-align:center;">A dog wearing a Superhero outfit with red cape flying through the sky</td>
-  <td width="25%" style="text-align:center;">3D model of an elephant origami. Studio lighting</td>
-  <td width="25%" style="text-align:center;">A squirrel eating a burger</td>
-  <td width="25%" style="text-align:center;">Sailboat sailing on a sunny day in a mountain lake</td>
-</tr>
-</table></div>
+        <tr>
+          <td style="text-align:center;" colspan="4"><b>Without POS</b></td>
+        </tr>
+        <tr>
+          <td><img src="static/videos/1_woPOS.gif"></td>
+          <td><img src="static/videos/10_woPOS.gif"></td>
+          <td><img src="static/videos/11_woPOS.gif"></td>
+          <td><img src="static/videos/121_woPOS.gif"></td>
+        </tr>
+        
+        </div><div><tr>
+          <td style="text-align:center;" colspan="4"><b>Good initial noise</b></td>
+        </tr>
+        <tr>
+          <td><img src="static/videos/1_wPOS.gif"></td>
+          <td><img src="static/videos/10_wPOS.gif"></td>
+          <td><img src="static/videos/11_wPOS.gif"></td>
+          <td><img src="static/videos/12_wPOS.gif"></td>
+        </tr>
+        <tr>
+          <td width="25%" style="text-align:center;">A man is speaking in front of the blackboard</td>
+          <td width="25%" style="text-align:center;">A couple is watching the sunset on the lawn</td>
+          <td width="25%" style="text-align:center;">A girl is singing among the flowers</td>
+          <td width="25%" style="text-align:center;">A woman is doing yoga in the sunset</td>
+        </tr>
+      </table></div>
       
     </div>
   </div>
