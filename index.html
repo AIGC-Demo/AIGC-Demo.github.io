@@ -109,6 +109,9 @@
   <div class="hero-body">
     <div class="container  is-max-desktop">
       <h2 class="title is-3">Results comparison with good and bad initial noise</h2>
+      <p>
+            During our practice, we observed that the video quality varies with different noise initializations, as shown below. Our POS is proposed to approach the optimal noise for each text prompt, thereby consistently synthesizing high-quality videos.
+      </p>
       <h3 class="title is-4">ModelScope</h3>
       <div><table class="center">
         <tr>
@@ -150,6 +153,37 @@
   <div class="hero-body">
     <div class="container  is-max-desktop">
       <h2 class="title is-3">Video qualitative results</h2>
+       <h3 class="title is-4">UnReal-World Videos(ModelScope)</h3>
+      <div><table class="center">
+        <tr>
+          <td style="text-align:center;" colspan="4"><b>Without POS</b></td>
+        </tr>
+        <tr>
+          <td><img src="static/videos/2_woPOS.gif"></td>
+          <td><img src="static/videos/3_woPOS.gif"></td>
+          <td><img src="static/videos/4_woPOS.gif"></td>
+          <td><img src="static/videos/9_woPOS.gif"></td>
+        </tr>
+        
+        </div><div><tr>
+          <td style="text-align:center;" colspan="4"><b>With POS</b></td>
+        </tr>
+        <tr>
+          <td><img src="static/videos/2_wPOS.gif"></td>
+          <td><img src="static/videos/3_wPOS.gif"></td>
+          <td><img src="static/videos/4_wPOS.gif"></td>
+          <td><img src="static/videos/9_wPOS.gif"></td>
+        </tr>
+        <tr>
+          <td width="25%" style="text-align:center;">A panda is driving a car</td>
+          <td width="25%" style="text-align:center;">Monkey learning to play the piano</td>
+          <td width="25%" style="text-align:center;">A paper folding tiger is walking on table</td>
+          <td width="25%" style="text-align:center;">Unicorns running along a beach</td>
+        </tr>
+      </table></div>
+      
+
+      <br>
       <h3 class="title is-4">Real-World Videos(ModelScope)</h3>
       <div><table class="center">
         <tr>
@@ -180,35 +214,35 @@
       </table></div>
 
       <br>
-      <h3 class="title is-4">UnReal-World Videos(ModelScope)</h3>
+      <h3 class="title is-4">UnReal-World Videos(SCVideo)</h3>
       <div><table class="center">
         <tr>
           <td style="text-align:center;" colspan="4"><b>Without POS</b></td>
         </tr>
         <tr>
-          <td><img src="static/videos/2_woPOS.gif"></td>
-          <td><img src="static/videos/3_woPOS.gif"></td>
-          <td><img src="static/videos/4_woPOS.gif"></td>
-          <td><img src="static/videos/9_woPOS.gif"></td>
+          <td><img src="static/videos/7_woPOS.gif"></td>
+          <td><img src="static/videos/5_woPOS.gif"></td>
+          <td><img src="static/videos/8_woPOS.gif"></td>
+          <td><img src="static/videos/14_woPOS.gif"></td>
         </tr>
         
         </div><div><tr>
           <td style="text-align:center;" colspan="4"><b>With POS</b></td>
         </tr>
         <tr>
-          <td><img src="static/videos/2_wPOS.gif"></td>
-          <td><img src="static/videos/3_wPOS.gif"></td>
-          <td><img src="static/videos/4_wPOS.gif"></td>
-          <td><img src="static/videos/9_wPOS.gif"></td>
+          <td><img src="static/videos/71_wPOS.gif"></td>
+          <td><img src="static/videos/5_wPOS.gif"></td>
+          <td><img src="static/videos/8_wPOS.gif"></td>
+          <td><img src="static/videos/141_wPOS.gif"></td>
         </tr>
         <tr>
-          <td width="25%" style="text-align:center;">A panda is driving a car</td>
-          <td width="25%" style="text-align:center;">Monkey learning to play the piano</td>
-          <td width="25%" style="text-align:center;">A paper folding tiger is walking on table</td>
-          <td width="25%" style="text-align:center;">Unicorns running along a beach</td>
+          <td width="25%" style="text-align:center;">An astronaut is riding a horse in the space, in a photorealistic style</td>
+          <td width="25%" style="text-align:center;">A bear is dancing in the snow</td>
+          <td width="25%" style="text-align:center;">A panda is playing guitar in the bar</td>
+          <td width="25%" style="text-align:center;">A monkey is reading book in the library</td>
         </tr>
       </table></div>
-
+      
       <br>
       <h3 class="title is-4">Real-World Videos(SCVideo)</h3>
       <div><table class="center">
@@ -239,35 +273,6 @@
         </tr>
       </table></div>
       
-      <br>
-      <h3 class="title is-4">UnReal-World Videos(SCVideo)</h3>
-      <div><table class="center">
-        <tr>
-          <td style="text-align:center;" colspan="4"><b>Without POS</b></td>
-        </tr>
-        <tr>
-          <td><img src="static/videos/7_woPOS.gif"></td>
-          <td><img src="static/videos/5_woPOS.gif"></td>
-          <td><img src="static/videos/8_woPOS.gif"></td>
-          <td><img src="static/videos/14_woPOS.gif"></td>
-        </tr>
-        
-        </div><div><tr>
-          <td style="text-align:center;" colspan="4"><b>With POS</b></td>
-        </tr>
-        <tr>
-          <td><img src="static/videos/71_wPOS.gif"></td>
-          <td><img src="static/videos/5_wPOS.gif"></td>
-          <td><img src="static/videos/8_wPOS.gif"></td>
-          <td><img src="static/videos/141_wPOS.gif"></td>
-        </tr>
-        <tr>
-          <td width="25%" style="text-align:center;">An astronaut is riding a horse in the space, in a photorealistic style</td>
-          <td width="25%" style="text-align:center;">A bear is dancing in the snow</td>
-          <td width="25%" style="text-align:center;">A panda is playing guitar in the bar</td>
-          <td width="25%" style="text-align:center;">A monkey is reading book in the library</td>
-        </tr>
-      </table></div>
       
     </div>
   </div>
